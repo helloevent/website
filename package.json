@@ -1,0 +1,34 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@types/react-dom": "^18.2.19",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^5.3.1",
+    "markdown-to-jsx": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.5",
+    "serve": "^14.1.2",
+    "webpack": "5.72.1",
+    "webpack-cli": "^4.0.0"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack --mode production",
+    "serve": "serve dist",
+    "serve80": "serve dist -p 80",
+    "serve8080": "serve dist -p 8080"
+  },
+  "devDependencies": {
+    "raw-loader": "4.0.2",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
