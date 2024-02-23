@@ -1,5 +1,6 @@
 {
   "name": "website",
+  "homepage": "https://helloevent.github.io/website/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@emotion/styled": "^11.10.5",
     "@types/react-dom": "^18.2.19",
     "babel-loader": "^8.0.6",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.3.1",
     "markdown-to-jsx": "^7.0.0",
     "react": "^18.2.0",
@@ -23,6 +25,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
     "serve": "serve dist",
     "serve80": "serve dist -p 80",
     "serve8080": "serve dist -p 8080"
