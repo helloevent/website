@@ -1,9 +1,9 @@
 import React from 'react';
-import BookingPage from './pages/booking-page';
+import WebPage from './pages/web-page';
 
 const App = () => (
   <div>
-    <BookingPage />
+    <WebPage />
   </div>
 );
 

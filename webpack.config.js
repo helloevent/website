@@ -55,7 +55,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'website',
       remotes: {
-        booking: 'booking@https://eventbatchweb.azurewebsites.net/remoteEntry.js',
+        web: 'web@https://eventbatch.azurewebsites.net/remoteEntry.js',
       },
       shared: {
          ...deps,
